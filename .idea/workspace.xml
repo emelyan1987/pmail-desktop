@@ -1,0 +1,1225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="256e7303-4687-46ef-8027-c9711fd9b4ce" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/internal_packages/calendar-view/lib/dayz/data/event-layout.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/internal_packages/calendar-view/lib/dayz/data/event.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/internal_packages/calendar-view/lib/dayz/data/events-collection.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/internal_packages/calendar-view/lib/dayz/data/layout.jsx" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/components/nylas-calendar/scheduler-constants.es6" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/flux/downloads/box-download.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/flux/stores/file-store.coffee" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/flux/tasks/save-event-task.es6" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internal_packages/calendar-view/lib/calendar/event-calendar-data-source.es6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internal_packages/calendar-view/lib/calendar/event-calendar-store.es6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internal_packages/calendar-view/lib/calendar/proposal.es6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internal_packages/calendar-view/lib/calendar/scheduler-constants.es6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internal_packages/calendar-view/lib/dayz/data/event-layout.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internal_packages/calendar-view/lib/dayz/data/event.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internal_packages/calendar-view/lib/dayz/data/events-collection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internal_packages/calendar-view/lib/dayz/data/layout.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internal_packages/composer-scheduler/lib/proposal.es6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internal_packages/composer-scheduler/lib/scheduler-actions.es6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internal_packages/composer-scheduler/lib/scheduler-constants.es6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internal_packages/file-view/assets/ic-email-eas@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internal_packages/file-view/assets/ic-email-gmail@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internal_packages/file-view/assets/ic-email-icloud@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internal_packages/file-view/assets/ic-email-imap@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internal_packages/file-view/assets/ic-email-outlook@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internal_packages/file-view/assets/ic-email-yahoo@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internal_packages/file-view/assets/ic-storage-box@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internal_packages/file-view/assets/ic-storage-dropbox@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internal_packages/file-view/assets/ic-storage-evernote@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internal_packages/file-view/assets/ic-storage-googledrive@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internal_packages/file-view/assets/ic-storage-icloud@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internal_packages/file-view/assets/ic-storage-local@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internal_packages/file-view/assets/ic-storage-onedrive@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internal_packages/file-view/lib/file-list-store.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internal_packages/file-view/lib/file-list.cjsx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internal_packages/file-view/lib/sidebar-item.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internal_packages/file-view/lib/sidebar-section.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internal_packages/file-view/stylesheets/file-list.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/internal_packages/package-template/README.md" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/internal_packages/calendar-view/lib/calendar/scheduler-actions.es6" afterPath="$PROJECT_DIR$/src/components/nylas-calendar/scheduler-actions.es6" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/internal_packages/calendar-view/lib/dayz/data/constants.js" afterPath="$PROJECT_DIR$/internal_packages/calendar-view/lib/dayz/data/constants.jsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/internal_packages/composer-scheduler/lib/calendar/proposed-time-calendar-data-source.es6" afterPath="$PROJECT_DIR$/src/components/nylas-calendar/proposed-time-calendar-data-source.es6" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/internal_packages/composer-scheduler/lib/calendar/proposed-time-event.jsx" afterPath="$PROJECT_DIR$/src/components/nylas-calendar/proposed-time-event.jsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/internal_packages/composer-scheduler/lib/proposed-time-calendar-store.es6" afterPath="$PROJECT_DIR$/src/components/nylas-calendar/proposed-time-calendar-store.es6" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/internal_packages/file-view/lib/focus-container.cjsx" afterPath="$PROJECT_DIR$/internal_packages/file-view/lib/status-viewer.cjsx" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/nylas-env.coffee" afterPath="$PROJECT_DIR$/src/planck-env.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CHANGELOG.md" afterPath="$PROJECT_DIR$/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appveyor.yml" afterPath="$PROJECT_DIR$/appveyor.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/Gruntfile.coffee" afterPath="$PROJECT_DIR$/build/Gruntfile.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/config/eslint.json" afterPath="$PROJECT_DIR$/build/config/eslint.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/mac/nylas-Info.plist" afterPath="$PROJECT_DIR$/build/resources/mac/nylas-Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/resources/nylas.sh" afterPath="$PROJECT_DIR$/build/resources/nylas.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/tasks/docs-render-task.coffee" afterPath="$PROJECT_DIR$/build/tasks/docs-render-task.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/docs/WritingSpecs.md" afterPath="$PROJECT_DIR$/docs/WritingSpecs.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/account-sidebar/lib/account-commands.coffee" afterPath="$PROJECT_DIR$/internal_packages/account-sidebar/lib/account-commands.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/account-sidebar/lib/sidebar-item.coffee" afterPath="$PROJECT_DIR$/internal_packages/account-sidebar/lib/sidebar-item.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/account-sidebar/lib/sidebar-section.coffee" afterPath="$PROJECT_DIR$/internal_packages/account-sidebar/lib/sidebar-section.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/account-sidebar/lib/sidebar-store.coffee" afterPath="$PROJECT_DIR$/internal_packages/account-sidebar/lib/sidebar-store.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/attachments/lib/attachment-component.jsx" afterPath="$PROJECT_DIR$/internal_packages/attachments/lib/attachment-component.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/attachments/lib/image-attachment-component.jsx" afterPath="$PROJECT_DIR$/internal_packages/attachments/lib/image-attachment-component.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/calendar-view/README.md" afterPath="$PROJECT_DIR$/internal_packages/calendar-view/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/calendar-view/lib/calendar-details.cjsx" afterPath="$PROJECT_DIR$/internal_packages/calendar-view/lib/calendar-details.cjsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/calendar-view/lib/calendar-sidebar.cjsx" afterPath="$PROJECT_DIR$/internal_packages/calendar-view/lib/calendar-sidebar.cjsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/calendar-view/lib/dayz/day.jsx" afterPath="$PROJECT_DIR$/internal_packages/calendar-view/lib/dayz/day.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/calendar-view/lib/event-popup.cjsx" afterPath="$PROJECT_DIR$/internal_packages/calendar-view/lib/event-popup.cjsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/calendar-view/lib/main.cjsx" afterPath="$PROJECT_DIR$/internal_packages/calendar-view/lib/main.cjsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/calendar-view/stylesheets/calendar-sidebar.less" afterPath="$PROJECT_DIR$/internal_packages/calendar-view/stylesheets/calendar-sidebar.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/calendar-view/stylesheets/dayz.less" afterPath="$PROJECT_DIR$/internal_packages/calendar-view/stylesheets/dayz.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/calendar-view/stylesheets/event-popup.less" afterPath="$PROJECT_DIR$/internal_packages/calendar-view/stylesheets/event-popup.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/category-picker/spec/category-picker-spec.cjsx" afterPath="$PROJECT_DIR$/internal_packages/category-picker/spec/category-picker-spec.cjsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/composer-scheduler/lib/calendar/proposed-time-picker.jsx" afterPath="$PROJECT_DIR$/internal_packages/composer-scheduler/lib/calendar/proposed-time-picker.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/composer-scheduler/lib/composer/new-event-card-container.jsx" afterPath="$PROJECT_DIR$/internal_packages/composer-scheduler/lib/composer/new-event-card-container.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/composer-scheduler/lib/composer/new-event-card.jsx" afterPath="$PROJECT_DIR$/internal_packages/composer-scheduler/lib/composer/new-event-card.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/composer-scheduler/lib/composer/proposed-time-list.jsx" afterPath="$PROJECT_DIR$/internal_packages/composer-scheduler/lib/composer/proposed-time-list.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/composer-scheduler/lib/composer/scheduler-composer-button.jsx" afterPath="$PROJECT_DIR$/internal_packages/composer-scheduler/lib/composer/scheduler-composer-button.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/composer-scheduler/lib/composer/scheduler-composer-extension.es6" afterPath="$PROJECT_DIR$/internal_packages/composer-scheduler/lib/composer/scheduler-composer-extension.es6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/composer-scheduler/lib/main.es6" afterPath="$PROJECT_DIR$/internal_packages/composer-scheduler/lib/main.es6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/composer-scheduler/lib/proposed-time-main-window-store.es6" afterPath="$PROJECT_DIR$/internal_packages/composer-scheduler/lib/proposed-time-main-window-store.es6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/composer-signature/lib/signature-store.es6" afterPath="$PROJECT_DIR$/internal_packages/composer-signature/lib/signature-store.es6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/composer-signature/spec/signature-composer-extension-spec.es6" afterPath="$PROJECT_DIR$/internal_packages/composer-signature/spec/signature-composer-extension-spec.es6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/composer-templates/lib/template-store.es6" afterPath="$PROJECT_DIR$/internal_packages/composer-templates/lib/template-store.es6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/composer/lib/composer-header-actions.jsx" afterPath="$PROJECT_DIR$/internal_packages/composer/lib/composer-header-actions.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/composer/lib/composer-view.jsx" afterPath="$PROJECT_DIR$/internal_packages/composer/lib/composer-view.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/composer/lib/main.es6" afterPath="$PROJECT_DIR$/internal_packages/composer/lib/main.es6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/composer/lib/send-action-button.jsx" afterPath="$PROJECT_DIR$/internal_packages/composer/lib/send-action-button.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/composer/spec/composer-header-actions-spec.cjsx" afterPath="$PROJECT_DIR$/internal_packages/composer/spec/composer-header-actions-spec.cjsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/composer/spec/composer-view-spec.cjsx" afterPath="$PROJECT_DIR$/internal_packages/composer/spec/composer-view-spec.cjsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/composer/spec/send-actions-spec.cjsx" afterPath="$PROJECT_DIR$/internal_packages/composer/spec/send-actions-spec.cjsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/composer/stylesheets/composer.less" afterPath="$PROJECT_DIR$/internal_packages/composer/stylesheets/composer.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/contact-view/lib/contacts-commands.coffee" afterPath="$PROJECT_DIR$/internal_packages/contact-view/lib/contacts-commands.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/contact-view/lib/sidebar-item.coffee" afterPath="$PROJECT_DIR$/internal_packages/contact-view/lib/sidebar-item.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/contact-view/lib/sidebar-section.coffee" afterPath="$PROJECT_DIR$/internal_packages/contact-view/lib/sidebar-section.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/contact-view/lib/sidebar-store.coffee" afterPath="$PROJECT_DIR$/internal_packages/contact-view/lib/sidebar-store.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/file-view/lib/contacts-commands.coffee" afterPath="$PROJECT_DIR$/internal_packages/file-view/lib/contacts-commands.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/file-view/lib/file-list-columns.cjsx" afterPath="$PROJECT_DIR$/internal_packages/file-view/lib/file-list-columns.cjsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/file-view/lib/main.cjsx" afterPath="$PROJECT_DIR$/internal_packages/file-view/lib/main.cjsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/file-view/lib/sidebar-actions.coffee" afterPath="$PROJECT_DIR$/internal_packages/file-view/lib/sidebar-actions.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/file-view/lib/sidebar-store.coffee" afterPath="$PROJECT_DIR$/internal_packages/file-view/lib/sidebar-store.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/file-view/lib/sidebar.cjsx" afterPath="$PROJECT_DIR$/internal_packages/file-view/lib/sidebar.cjsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/file-view/stylesheets/sidebar.less" afterPath="$PROJECT_DIR$/internal_packages/file-view/stylesheets/sidebar.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/link-tracking/lib/link-tracking-constants.es6" afterPath="$PROJECT_DIR$/internal_packages/link-tracking/lib/link-tracking-constants.es6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/message-autoload-images/lib/autoload-images-store.es6" afterPath="$PROJECT_DIR$/internal_packages/message-autoload-images/lib/autoload-images-store.es6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/message-list/lib/message-controls.cjsx" afterPath="$PROJECT_DIR$/internal_packages/message-list/lib/message-controls.cjsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/message-list/lib/message-list.cjsx" afterPath="$PROJECT_DIR$/internal_packages/message-list/lib/message-list.cjsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/message-list/spec/message-list-spec.cjsx" afterPath="$PROJECT_DIR$/internal_packages/message-list/spec/message-list-spec.cjsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/notification-mailto/lib/main.coffee" afterPath="$PROJECT_DIR$/internal_packages/notification-mailto/lib/main.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/notification-update-available/lib/main.cjsx" afterPath="$PROJECT_DIR$/internal_packages/notification-update-available/lib/main.cjsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/notification-update-available/spec/main-spec.coffee" afterPath="$PROJECT_DIR$/internal_packages/notification-update-available/spec/main-spec.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/onboarding/lib/account-choose-page.cjsx" afterPath="$PROJECT_DIR$/internal_packages/onboarding/lib/account-choose-page.cjsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/onboarding/lib/account-settings-page.cjsx" afterPath="$PROJECT_DIR$/internal_packages/onboarding/lib/account-settings-page.cjsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/onboarding/lib/initial-packages-page.cjsx" afterPath="$PROJECT_DIR$/internal_packages/onboarding/lib/initial-packages-page.cjsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/onboarding/lib/initial-preferences-page.cjsx" afterPath="$PROJECT_DIR$/internal_packages/onboarding/lib/initial-preferences-page.cjsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/onboarding/lib/main.coffee" afterPath="$PROJECT_DIR$/internal_packages/onboarding/lib/main.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/onboarding/lib/nylas-api-environment-store.coffee" afterPath="$PROJECT_DIR$/internal_packages/onboarding/lib/nylas-api-environment-store.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/onboarding/lib/page-router-store.coffee" afterPath="$PROJECT_DIR$/internal_packages/onboarding/lib/page-router-store.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/onboarding/lib/page-router.cjsx" afterPath="$PROJECT_DIR$/internal_packages/onboarding/lib/page-router.cjsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/onboarding/lib/token-auth-api.coffee" afterPath="$PROJECT_DIR$/internal_packages/onboarding/lib/token-auth-api.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/onboarding/lib/token-auth-page.cjsx" afterPath="$PROJECT_DIR$/internal_packages/onboarding/lib/token-auth-page.cjsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/onboarding/lib/welcome-page.cjsx" afterPath="$PROJECT_DIR$/internal_packages/onboarding/lib/welcome-page.cjsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/onboarding/spec/nylas-api-environment-store-spec.coffee" afterPath="$PROJECT_DIR$/internal_packages/onboarding/spec/nylas-api-environment-store-spec.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/open-tracking/lib/open-tracking-composer-extension.es6" afterPath="$PROJECT_DIR$/internal_packages/open-tracking/lib/open-tracking-composer-extension.es6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/open-tracking/lib/open-tracking-constants.es6" afterPath="$PROJECT_DIR$/internal_packages/open-tracking/lib/open-tracking-constants.es6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/open-tracking/spec/open-tracking-composer-extension-spec.es6" afterPath="$PROJECT_DIR$/internal_packages/open-tracking/spec/open-tracking-composer-extension-spec.es6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/plugins/lib/packages-store.jsx" afterPath="$PROJECT_DIR$/internal_packages/plugins/lib/packages-store.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/plugins/lib/tab-installed.jsx" afterPath="$PROJECT_DIR$/internal_packages/plugins/lib/tab-installed.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/preferences/lib/tabs/preferences-appearance.jsx" afterPath="$PROJECT_DIR$/internal_packages/preferences/lib/tabs/preferences-appearance.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/preferences/lib/tabs/preferences-keymaps.jsx" afterPath="$PROJECT_DIR$/internal_packages/preferences/lib/tabs/preferences-keymaps.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/preferences/lib/tabs/preferences-mail-rules.jsx" afterPath="$PROJECT_DIR$/internal_packages/preferences/lib/tabs/preferences-mail-rules.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/screenshot-mode/lib/main.coffee" afterPath="$PROJECT_DIR$/internal_packages/screenshot-mode/lib/main.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/send-later/lib/send-later-button.jsx" afterPath="$PROJECT_DIR$/internal_packages/send-later/lib/send-later-button.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/send-later/lib/send-later-constants.js" afterPath="$PROJECT_DIR$/internal_packages/send-later/lib/send-later-constants.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/send-later/lib/send-later-popover.jsx" afterPath="$PROJECT_DIR$/internal_packages/send-later/lib/send-later-popover.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/send-later/lib/send-later-store.js" afterPath="$PROJECT_DIR$/internal_packages/send-later/lib/send-later-store.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/send-later/spec/send-later-button-spec.jsx" afterPath="$PROJECT_DIR$/internal_packages/send-later/spec/send-later-button-spec.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/send-later/spec/send-later-popover-spec.jsx" afterPath="$PROJECT_DIR$/internal_packages/send-later/spec/send-later-popover-spec.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/send-later/spec/send-later-store-spec.es6" afterPath="$PROJECT_DIR$/internal_packages/send-later/spec/send-later-store-spec.es6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/theme-picker/lib/theme-option.jsx" afterPath="$PROJECT_DIR$/internal_packages/theme-picker/lib/theme-option.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/theme-picker/lib/theme-picker-store.jsx" afterPath="$PROJECT_DIR$/internal_packages/theme-picker/lib/theme-picker-store.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/theme-picker/lib/theme-picker.jsx" afterPath="$PROJECT_DIR$/internal_packages/theme-picker/lib/theme-picker.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/theme-picker/spec/theme-picker-spec.jsx" afterPath="$PROJECT_DIR$/internal_packages/theme-picker/spec/theme-picker-spec.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/thread-list/lib/thread-list-data-source.coffee" afterPath="$PROJECT_DIR$/internal_packages/thread-list/lib/thread-list-data-source.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/thread-list/lib/thread-list-store.coffee" afterPath="$PROJECT_DIR$/internal_packages/thread-list/lib/thread-list-store.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/thread-list/lib/thread-list.cjsx" afterPath="$PROJECT_DIR$/internal_packages/thread-list/lib/thread-list.cjsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/thread-list/lib/thread-toolbar-buttons.cjsx" afterPath="$PROJECT_DIR$/internal_packages/thread-list/lib/thread-toolbar-buttons.cjsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/thread-search/spec/search-bar-spec.cjsx" afterPath="$PROJECT_DIR$/internal_packages/thread-search/spec/search-bar-spec.cjsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/thread-snooze/lib/snooze-constants.js" afterPath="$PROJECT_DIR$/internal_packages/thread-snooze/lib/snooze-constants.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/thread-snooze/lib/snooze-popover.jsx" afterPath="$PROJECT_DIR$/internal_packages/thread-snooze/lib/snooze-popover.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/thread-snooze/lib/snooze-store.js" afterPath="$PROJECT_DIR$/internal_packages/thread-snooze/lib/snooze-store.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/thread-snooze/spec/snooze-store-spec.es6" afterPath="$PROJECT_DIR$/internal_packages/thread-snooze/spec/snooze-store-spec.es6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/undo-redo/lib/undo-redo-component.cjsx" afterPath="$PROJECT_DIR$/internal_packages/undo-redo/lib/undo-redo-component.cjsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/unread-notifications/lib/main.coffee" afterPath="$PROJECT_DIR$/internal_packages/unread-notifications/lib/main.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/unread-notifications/spec/main-spec.coffee" afterPath="$PROJECT_DIR$/internal_packages/unread-notifications/spec/main-spec.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/worker-sync/lib/contact-rankings-cache.coffee" afterPath="$PROJECT_DIR$/internal_packages/worker-sync/lib/contact-rankings-cache.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/worker-sync/lib/nylas-long-connection.coffee" afterPath="$PROJECT_DIR$/internal_packages/worker-sync/lib/nylas-long-connection.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/worker-sync/lib/nylas-sync-worker-pool.coffee" afterPath="$PROJECT_DIR$/internal_packages/worker-sync/lib/nylas-sync-worker-pool.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/worker-sync/lib/nylas-sync-worker.coffee" afterPath="$PROJECT_DIR$/internal_packages/worker-sync/lib/nylas-sync-worker.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/worker-sync/spec/nylas-sync-worker-spec.coffee" afterPath="$PROJECT_DIR$/internal_packages/worker-sync/spec/nylas-sync-worker-spec.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/worker-ui/lib/developer-bar-curl-item.cjsx" afterPath="$PROJECT_DIR$/internal_packages/worker-ui/lib/developer-bar-curl-item.cjsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/internal_packages/worker-ui/lib/developer-bar-store.coffee" afterPath="$PROJECT_DIR$/internal_packages/worker-ui/lib/developer-bar-store.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/menus/darwin.cson" afterPath="$PROJECT_DIR$/menus/darwin.cson" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/bootstrap.cmd" afterPath="$PROJECT_DIR$/script/bootstrap.cmd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/build" afterPath="$PROJECT_DIR$/script/build" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/build.cmd" afterPath="$PROJECT_DIR$/script/build.cmd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/cibuild" afterPath="$PROJECT_DIR$/script/cibuild" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/cibuild-docker-ubuntu32" afterPath="$PROJECT_DIR$/script/cibuild-docker-ubuntu32" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/cibuild.ps1" afterPath="$PROJECT_DIR$/script/cibuild.ps1" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/docs" afterPath="$PROJECT_DIR$/script/docs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/grunt" afterPath="$PROJECT_DIR$/script/grunt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/grunt.cmd" afterPath="$PROJECT_DIR$/script/grunt.cmd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/mkdeb" afterPath="$PROJECT_DIR$/script/mkdeb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/mkrpm" afterPath="$PROJECT_DIR$/script/mkrpm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/rpmbuild" afterPath="$PROJECT_DIR$/script/rpmbuild" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/set-version" afterPath="$PROJECT_DIR$/script/set-version" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/test" afterPath="$PROJECT_DIR$/script/test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/action-bridge-spec.coffee" afterPath="$PROJECT_DIR$/spec/action-bridge-spec.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/clipboard-spec.coffee" afterPath="$PROJECT_DIR$/spec/clipboard-spec.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/components/editable-list-spec.jsx" afterPath="$PROJECT_DIR$/spec/components/editable-list-spec.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/components/evented-iframe-spec.cjsx" afterPath="$PROJECT_DIR$/spec/components/evented-iframe-spec.cjsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/components/participants-text-field-spec.cjsx" afterPath="$PROJECT_DIR$/spec/components/participants-text-field-spec.cjsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/fixtures/packages/package-with-activation-commands/index.coffee" afterPath="$PROJECT_DIR$/spec/fixtures/packages/package-with-activation-commands/index.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/fixtures/packages/package-with-deprecated-pane-item-method/index.coffee" afterPath="$PROJECT_DIR$/spec/fixtures/packages/package-with-deprecated-pane-item-method/index.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/jasmine-helper.coffee" afterPath="$PROJECT_DIR$/spec/jasmine-helper.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/menu-manager-spec.coffee" afterPath="$PROJECT_DIR$/spec/menu-manager-spec.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/module-cache-spec.coffee" afterPath="$PROJECT_DIR$/spec/module-cache-spec.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/nylas-api-spec.coffee" afterPath="$PROJECT_DIR$/spec/nylas-api-spec.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/nylas-env-spec.coffee" afterPath="$PROJECT_DIR$/spec/nylas-env-spec.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/nylas-test-utils.coffee" afterPath="$PROJECT_DIR$/spec/nylas-test-utils.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/package-manager-spec.coffee" afterPath="$PROJECT_DIR$/spec/package-manager-spec.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/package-spec.coffee" afterPath="$PROJECT_DIR$/spec/package-spec.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/spec-bootstrap.coffee" afterPath="$PROJECT_DIR$/spec/spec-bootstrap.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/spec-helper.coffee" afterPath="$PROJECT_DIR$/spec/spec-helper.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/spec-suite.coffee" afterPath="$PROJECT_DIR$/spec/spec-suite.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/stores/account-store-spec.coffee" afterPath="$PROJECT_DIR$/spec/stores/account-store-spec.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/stores/contact-store-spec.coffee" afterPath="$PROJECT_DIR$/spec/stores/contact-store-spec.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/stores/draft-store-spec.es6" afterPath="$PROJECT_DIR$/spec/stores/draft-store-spec.es6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/stores/file-download-store-spec.coffee" afterPath="$PROJECT_DIR$/spec/stores/file-download-store-spec.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/stores/file-upload-store-spec.coffee" afterPath="$PROJECT_DIR$/spec/stores/file-upload-store-spec.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/stores/message-store-spec.coffee" afterPath="$PROJECT_DIR$/spec/stores/message-store-spec.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/styles-element-spec.coffee" afterPath="$PROJECT_DIR$/spec/styles-element-spec.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/tasks/destroy-category-task-spec.coffee" afterPath="$PROJECT_DIR$/spec/tasks/destroy-category-task-spec.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/tasks/send-draft-task-spec.es6" afterPath="$PROJECT_DIR$/spec/tasks/send-draft-task-spec.es6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/tasks/syncback-model-task-spec.es6" afterPath="$PROJECT_DIR$/spec/tasks/syncback-model-task-spec.es6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/tasks/task-spec.coffee" afterPath="$PROJECT_DIR$/spec/tasks/task-spec.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/theme-manager-spec.coffee" afterPath="$PROJECT_DIR$/spec/theme-manager-spec.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec_integration/helpers/n1-launcher.es6" afterPath="$PROJECT_DIR$/spec_integration/helpers/n1-launcher.es6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/apm-wrapper.coffee" afterPath="$PROJECT_DIR$/src/apm-wrapper.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/browser/application.coffee" afterPath="$PROJECT_DIR$/src/browser/application.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/browser/main.js" afterPath="$PROJECT_DIR$/src/browser/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/browser/nylas-window.coffee" afterPath="$PROJECT_DIR$/src/browser/nylas-window.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/browser/window-manager.coffee" afterPath="$PROJECT_DIR$/src/browser/window-manager.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/browser/windows-updater-squirrel-adapter.coffee" afterPath="$PROJECT_DIR$/src/browser/windows-updater-squirrel-adapter.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/clipboard.coffee" afterPath="$PROJECT_DIR$/src/clipboard.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/command-registry.coffee" afterPath="$PROJECT_DIR$/src/command-registry.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/config-prop-container.cjsx" afterPath="$PROJECT_DIR$/src/components/config-prop-container.cjsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/contenteditable/contenteditable.cjsx" afterPath="$PROJECT_DIR$/src/components/contenteditable/contenteditable.cjsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/contenteditable/floating-toolbar.cjsx" afterPath="$PROJECT_DIR$/src/components/contenteditable/floating-toolbar.cjsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/contenteditable/toolbar-button-manager.coffee" afterPath="$PROJECT_DIR$/src/components/contenteditable/toolbar-button-manager.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/evented-iframe.cjsx" afterPath="$PROJECT_DIR$/src/components/evented-iframe.cjsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/fixed-popover.jsx" afterPath="$PROJECT_DIR$/src/components/fixed-popover.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/key-commands-region.cjsx" afterPath="$PROJECT_DIR$/src/components/key-commands-region.cjsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/list-data-source.coffee" afterPath="$PROJECT_DIR$/src/components/list-data-source.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/list-tabular.cjsx" afterPath="$PROJECT_DIR$/src/components/list-tabular.cjsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/mail-important-icon.cjsx" afterPath="$PROJECT_DIR$/src/components/mail-important-icon.cjsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/metadata-composer-toggle-button.jsx" afterPath="$PROJECT_DIR$/src/components/metadata-composer-toggle-button.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/modal.jsx" afterPath="$PROJECT_DIR$/src/components/modal.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/nylas-calendar/calendar-actions.es6" afterPath="$PROJECT_DIR$/src/components/nylas-calendar/calendar-actions.es6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/nylas-calendar/calendar-data-source.es6" afterPath="$PROJECT_DIR$/src/components/nylas-calendar/calendar-data-source.es6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/nylas-calendar/calendar-event-container.jsx" afterPath="$PROJECT_DIR$/src/components/nylas-calendar/calendar-event-container.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/nylas-calendar/calendar-event.jsx" afterPath="$PROJECT_DIR$/src/components/nylas-calendar/calendar-event.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/nylas-calendar/nylas-calendar.jsx" afterPath="$PROJECT_DIR$/src/components/nylas-calendar/nylas-calendar.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/nylas-calendar/week-view-all-day-events.jsx" afterPath="$PROJECT_DIR$/src/components/nylas-calendar/week-view-all-day-events.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/nylas-calendar/week-view-event-column.jsx" afterPath="$PROJECT_DIR$/src/components/nylas-calendar/week-view-event-column.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/nylas-calendar/week-view.jsx" afterPath="$PROJECT_DIR$/src/components/nylas-calendar/week-view.jsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/components/unsafe-component.cjsx" afterPath="$PROJECT_DIR$/src/components/unsafe-component.cjsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/config.coffee" afterPath="$PROJECT_DIR$/src/config.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/deprecate-utils.coffee" afterPath="$PROJECT_DIR$/src/deprecate-utils.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/error-logger.js" afterPath="$PROJECT_DIR$/src/error-logger.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flux/action-bridge.coffee" afterPath="$PROJECT_DIR$/src/flux/action-bridge.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flux/actions.coffee" afterPath="$PROJECT_DIR$/src/flux/actions.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flux/edgehill-api.coffee" afterPath="$PROJECT_DIR$/src/flux/edgehill-api.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flux/models/account.coffee" afterPath="$PROJECT_DIR$/src/flux/models/account.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flux/models/category.coffee" afterPath="$PROJECT_DIR$/src/flux/models/category.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flux/models/message.coffee" afterPath="$PROJECT_DIR$/src/flux/models/message.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flux/models/query-subscription-pool.coffee" afterPath="$PROJECT_DIR$/src/flux/models/query-subscription-pool.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flux/models/query-subscription.es6" afterPath="$PROJECT_DIR$/src/flux/models/query-subscription.es6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flux/models/utils.coffee" afterPath="$PROJECT_DIR$/src/flux/models/utils.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flux/nylas-api.coffee" afterPath="$PROJECT_DIR$/src/flux/nylas-api.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flux/nylas-long-connection.es6" afterPath="$PROJECT_DIR$/src/flux/nylas-long-connection.es6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flux/stores/account-store.coffee" afterPath="$PROJECT_DIR$/src/flux/stores/account-store.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flux/stores/badge-store.es6" afterPath="$PROJECT_DIR$/src/flux/stores/badge-store.es6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flux/stores/category-store.coffee" afterPath="$PROJECT_DIR$/src/flux/stores/category-store.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flux/stores/contact-store.coffee" afterPath="$PROJECT_DIR$/src/flux/stores/contact-store.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flux/stores/database-store.coffee" afterPath="$PROJECT_DIR$/src/flux/stores/database-store.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flux/stores/database-transaction.coffee" afterPath="$PROJECT_DIR$/src/flux/stores/database-transaction.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flux/stores/draft-factory.coffee" afterPath="$PROJECT_DIR$/src/flux/stores/draft-factory.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flux/stores/draft-store.coffee" afterPath="$PROJECT_DIR$/src/flux/stores/draft-store.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flux/stores/file-download-store.coffee" afterPath="$PROJECT_DIR$/src/flux/stores/file-download-store.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flux/stores/file-upload-store.coffee" afterPath="$PROJECT_DIR$/src/flux/stores/file-upload-store.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flux/stores/focused-perspective-store.coffee" afterPath="$PROJECT_DIR$/src/flux/stores/focused-perspective-store.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flux/stores/mail-rules-store.coffee" afterPath="$PROJECT_DIR$/src/flux/stores/mail-rules-store.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flux/stores/message-body-processor.es6" afterPath="$PROJECT_DIR$/src/flux/stores/message-body-processor.es6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flux/stores/message-store.coffee" afterPath="$PROJECT_DIR$/src/flux/stores/message-store.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flux/stores/task-queue.coffee" afterPath="$PROJECT_DIR$/src/flux/stores/task-queue.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flux/stores/thread-counts-store.coffee" afterPath="$PROJECT_DIR$/src/flux/stores/thread-counts-store.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flux/stores/undo-redo-store.coffee" afterPath="$PROJECT_DIR$/src/flux/stores/undo-redo-store.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flux/stores/workspace-store.coffee" afterPath="$PROJECT_DIR$/src/flux/stores/workspace-store.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flux/tasks/destroy-category-task.es6" afterPath="$PROJECT_DIR$/src/flux/tasks/destroy-category-task.es6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flux/tasks/event-rsvp-task.es6" afterPath="$PROJECT_DIR$/src/flux/tasks/event-rsvp-task.es6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flux/tasks/notify-plugins-of-send-task.es6" afterPath="$PROJECT_DIR$/src/flux/tasks/notify-plugins-of-send-task.es6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flux/tasks/send-draft-task.es6" afterPath="$PROJECT_DIR$/src/flux/tasks/send-draft-task.es6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flux/tasks/syncback-model-task.es6" afterPath="$PROJECT_DIR$/src/flux/tasks/syncback-model-task.es6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/flux/tasks/task.es6" afterPath="$PROJECT_DIR$/src/flux/tasks/task.es6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/global/nylas-component-kit.coffee" afterPath="$PROJECT_DIR$/src/global/nylas-component-kit.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/global/nylas-exports.coffee" afterPath="$PROJECT_DIR$/src/global/nylas-exports.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/global/nylas-observables.coffee" afterPath="$PROJECT_DIR$/src/global/nylas-observables.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/keymap-manager.coffee" afterPath="$PROJECT_DIR$/src/keymap-manager.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/mailbox-perspective.coffee" afterPath="$PROJECT_DIR$/src/mailbox-perspective.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/menu-manager.coffee" afterPath="$PROJECT_DIR$/src/menu-manager.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/package-manager.coffee" afterPath="$PROJECT_DIR$/src/package-manager.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/package.coffee" afterPath="$PROJECT_DIR$/src/package.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/react-remote/react-remote-parent.js" afterPath="$PROJECT_DIR$/src/react-remote/react-remote-parent.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/scoped-properties.coffee" afterPath="$PROJECT_DIR$/src/scoped-properties.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/services/quoted-html-transformer.coffee" afterPath="$PROJECT_DIR$/src/services/quoted-html-transformer.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sheet-container.cjsx" afterPath="$PROJECT_DIR$/src/sheet-container.cjsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sheet-menubar.cjsx" afterPath="$PROJECT_DIR$/src/sheet-menubar.cjsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sheet-toolbar.cjsx" afterPath="$PROJECT_DIR$/src/sheet-toolbar.cjsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sheet.cjsx" afterPath="$PROJECT_DIR$/src/sheet.cjsx" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sound-registry.coffee" afterPath="$PROJECT_DIR$/src/sound-registry.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/space-pen-extensions.coffee" afterPath="$PROJECT_DIR$/src/space-pen-extensions.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style-manager.coffee" afterPath="$PROJECT_DIR$/src/style-manager.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/styles-element.coffee" afterPath="$PROJECT_DIR$/src/styles-element.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/system-start-service.es6" afterPath="$PROJECT_DIR$/src/system-start-service.es6" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/theme-manager.coffee" afterPath="$PROJECT_DIR$/src/theme-manager.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/theme-package.coffee" afterPath="$PROJECT_DIR$/src/theme-package.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/window-bootstrap.coffee" afterPath="$PROJECT_DIR$/src/window-bootstrap.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/window-event-handler.coffee" afterPath="$PROJECT_DIR$/src/window-event-handler.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/window-secondary-bootstrap.coffee" afterPath="$PROJECT_DIR$/src/window-secondary-bootstrap.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/window-thin-bootstrap.coffee" afterPath="$PROJECT_DIR$/src/window-thin-bootstrap.coffee" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/index.html" afterPath="$PROJECT_DIR$/static/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/index.js" afterPath="$PROJECT_DIR$/static/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/index.less" afterPath="$PROJECT_DIR$/static/index.less" />
+    </list>
+    <ignored path="PlanckMailDesktop.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="PlanckMailDesktop" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="555">
+              <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="save-event-task.es6" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/flux/tasks/save-event-task.es6">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="googledrive-api.coffee" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/flux/clouds/googledrive-api.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="task.es6" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/flux/tasks/task.es6">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="send-draft-task.es6" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/flux/tasks/send-draft-task.es6">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base-draft-task.es6" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/flux/tasks/base-draft-task.es6">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="month-view.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/nylas-calendar/month-view.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="week-view.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/nylas-calendar/week-view.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2910">
+              <caret line="209" column="17" selection-start-line="209" selection-start-column="17" selection-end-line="209" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="week-view-all-day-events.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/nylas-calendar/week-view-all-day-events.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="outbox-store.es6" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/flux/stores/outbox-store.es6">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CoffeeScript File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/internal_packages/calendar-view/stylesheets/event-popup.less" />
+        <option value="$PROJECT_DIR$/src/flux/tasks/save-event-task.es6" />
+        <option value="$PROJECT_DIR$/src/flux/tasks/event-rsvp-task.es6" />
+        <option value="$PROJECT_DIR$/src/flux/models/event.coffee" />
+        <option value="$PROJECT_DIR$/internal_packages/calendar-view/lib/dayz/data/layout.js" />
+        <option value="$PROJECT_DIR$/node_modules/dayz/lib/data/layout.js" />
+        <option value="$PROJECT_DIR$/node_modules/dayz/lib/dayz.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/internal_packages/calendar-view/lib/dayz/data/events-collection.js" />
+        <option value="$PROJECT_DIR$/internal_packages/calendar-view/lib/dayz/data/event.jsx" />
+        <option value="$PROJECT_DIR$/internal_packages/calendar-view/stylesheets/dayz.scss" />
+        <option value="$PROJECT_DIR$/internal_packages/calendar-view/stylesheets/dayz.less" />
+        <option value="$PROJECT_DIR$/internal_packages/calendar-view/lib/dayz/data/layout.jsx" />
+        <option value="$PROJECT_DIR$/internal_packages/calendar-view/lib/dayz/day.jsx" />
+        <option value="$PROJECT_DIR$/internal_packages/composer-scheduler/lib/calendar/proposed-time-calendar-data-source.es6" />
+        <option value="$PROJECT_DIR$/src/flux/actions.coffee" />
+        <option value="$PROJECT_DIR$/src/flux/stores/calendar-store.coffee" />
+        <option value="$PROJECT_DIR$/internal_packages/calendar-view/lib/event-calendar-data-source.es6" />
+        <option value="$PROJECT_DIR$/internal_packages/composer-scheduler/lib/proposed-time-calendar-store.es6" />
+        <option value="$PROJECT_DIR$/src/components/nylas-calendar/nylas-calendar.jsx" />
+        <option value="$PROJECT_DIR$/src/components/nylas-calendar/week-view-event-column.jsx" />
+        <option value="$PROJECT_DIR$/src/components/nylas-calendar/week-view-all-day-events.jsx" />
+        <option value="$PROJECT_DIR$/src/components/nylas-calendar/week-view.jsx" />
+        <option value="$PROJECT_DIR$/src/components/nylas-calendar/scheduler-constants.es6" />
+        <option value="$PROJECT_DIR$/internal_packages/composer-scheduler/lib/calendar/proposed-time-picker.jsx" />
+        <option value="$PROJECT_DIR$/internal_packages/composer-scheduler/lib/proposed-time-main-window-store.es6" />
+        <option value="$PROJECT_DIR$/internal_packages/composer-scheduler/lib/calendar/proposed-time-event.jsx" />
+        <option value="$PROJECT_DIR$/internal_packages/composer-scheduler/lib/composer/new-event-card-container.jsx" />
+        <option value="$PROJECT_DIR$/internal_packages/composer-scheduler/lib/composer/new-event-card.jsx" />
+        <option value="$PROJECT_DIR$/internal_packages/composer-scheduler/lib/composer/scheduler-composer-button.jsx" />
+        <option value="$PROJECT_DIR$/internal_packages/composer-scheduler/lib/composer/scheduler-composer-extension.es6" />
+        <option value="$PROJECT_DIR$/internal_packages/composer-scheduler/lib/composer/proposed-time-list.jsx" />
+        <option value="$PROJECT_DIR$/internal_packages/calendar-view/lib/main.cjsx" />
+        <option value="$PROJECT_DIR$/src/flux/stores/file-download-store.coffee" />
+        <option value="$PROJECT_DIR$/src/flux/tasks/send-draft-task.es6" />
+        <option value="$PROJECT_DIR$/src/components/nylas-calendar/scheduler-actions.es6" />
+        <option value="$PROJECT_DIR$/src/components/nylas-calendar/calendar-actions.es6" />
+        <option value="$PROJECT_DIR$/src/global/nylas-exports.coffee" />
+        <option value="$PROJECT_DIR$/src/global/nylas-component-kit.coffee" />
+        <option value="$PROJECT_DIR$/internal_packages/composer-scheduler/lib/main.es6" />
+        <option value="$PROJECT_DIR$/src/components/nylas-calendar/calendar-event.jsx" />
+        <option value="$PROJECT_DIR$/src/components/nylas-calendar/proposed-time-event.jsx" />
+        <option value="$PROJECT_DIR$/internal_packages/calendar-view/lib/event-popup.cjsx" />
+        <option value="$PROJECT_DIR$/src/components/nylas-calendar/proposed-time-calendar-data-source.es6" />
+        <option value="$PROJECT_DIR$/src/components/nylas-calendar/calendar-data-source.es6" />
+        <option value="$PROJECT_DIR$/internal_packages/calendar-view/lib/calendar-details.cjsx" />
+        <option value="$PROJECT_DIR$/internal_packages/calendar-view/lib/calendar-sidebar.cjsx" />
+        <option value="$PROJECT_DIR$/src/components/nylas-calendar/proposal.es6" />
+        <option value="$PROJECT_DIR$/src/components/nylas-calendar/proposed-time-calendar-store.es6" />
+        <option value="$PROJECT_DIR$/Build.txt" />
+        <option value="$PROJECT_DIR$/static/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1920" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlanckMailDesktop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlanckMailDesktop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlanckMailDesktop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlanckMailDesktop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlanckMailDesktop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlanckMailDesktop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlanckMailDesktop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlanckMailDesktop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlanckMailDesktop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flux" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlanckMailDesktop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlanckMailDesktop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flux" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clouds" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlanckMailDesktop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlanckMailDesktop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="electron" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlanckMailDesktop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlanckMailDesktop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="build" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlanckMailDesktop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PlanckMailDesktop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SignRadar/WebRTC-master" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/nylas-calendar" />
+      <recent name="$PROJECT_DIR$/static/react-widgets" />
+      <recent name="$PROJECT_DIR$/internal_packages/calendar-view/fonts" />
+      <recent name="$PROJECT_DIR$/internal_packages/calendar-view/stylesheets" />
+      <recent name="$PROJECT_DIR$/static" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/nylas-calendar" />
+      <recent name="$PROJECT_DIR$/internal_packages/calendar-view/lib" />
+      <recent name="$PROJECT_DIR$/internal_packages/calendar-view/stylesheets" />
+      <recent name="$PROJECT_DIR$/internal_packages/calendar-view/lib/dayz/data" />
+      <recent name="$PROJECT_DIR$/src/flux/tasks" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="256e7303-4687-46ef-8027-c9711fd9b4ce" name="Default" comment="" />
+      <created>1470470682991</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1470470682991</updated>
+      <workItem from="1470470687710" duration="1407000" />
+      <workItem from="1470618771729" duration="13441000" />
+      <workItem from="1470684407475" duration="22710000" />
+      <workItem from="1470801240593" duration="591000" />
+      <workItem from="1470814255765" duration="7384000" />
+      <workItem from="1470880441414" duration="30555000" />
+      <workItem from="1471050870454" duration="87635000" />
+      <workItem from="1471513799368" duration="138895000" />
+      <workItem from="1472091949797" duration="15038000" />
+      <workItem from="1472124459320" duration="72081000" />
+      <workItem from="1472605677575" duration="611000" />
+      <workItem from="1472691578006" duration="117000" />
+      <workItem from="1472737262767" duration="7469000" />
+      <workItem from="1473256000758" duration="116828000" />
+      <workItem from="1473731429590" duration="18461000" />
+      <workItem from="1473815172736" duration="50492000" />
+      <workItem from="1473986315583" duration="6666000" />
+      <workItem from="1474188542963" duration="3178000" />
+      <workItem from="1474252673840" duration="625000" />
+      <workItem from="1474546484041" duration="1200000" />
+      <workItem from="1474824144748" duration="1246000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="596630000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1920" height="1000" extended-state="6" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19010417" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32618025" sideWeight="0.50183344" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24960506" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3254565" sideWeight="0.4981666" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/internal_packages/composer-scheduler/lib/composer/scheduler-composer-button.jsx</url>
+          <line>13</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="11" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/internal_packages/composer-scheduler/lib/composer/new-event-card-container.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="47" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/internal_packages/composer-scheduler/lib/composer/new-event-card.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="47" selection-start-line="10" selection-start-column="47" selection-end-line="10" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/internal_packages/composer-scheduler/lib/composer/scheduler-composer-button.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#25#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/internal_packages/composer-scheduler/lib/composer/scheduler-composer-extension.es6">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/internal_packages/calendar-view/lib/main.cjsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="70" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/flux/stores/file-store.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="64" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/flux/actions.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="169" column="3" selection-start-line="169" selection-start-column="3" selection-end-line="169" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/flux/stores/account-store.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/nylas-calendar/calendar-actions.es6">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="30" selection-start-line="0" selection-start-column="30" selection-end-line="0" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/flux/stores/file-download-store.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/internal_packages/composer-scheduler/lib/composer/proposed-time-list.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="3" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/internal_packages/composer-scheduler/lib/calendar/proposed-time-picker.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1830">
+          <caret line="1" column="40" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/nylas-calendar/footer-controls.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/nylas-calendar/header-controls.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/global/nylas-exports.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="194" column="104" selection-start-line="194" selection-start-column="104" selection-end-line="194" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/global/nylas-component-kit.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/nylas-calendar/calendar-constants.es6">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/nylas-calendar/event-grid-background.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/internal_packages/composer-scheduler/lib/main.es6">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="45" column="44" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/flux/stores/popover-store.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="55" column="2" selection-start-line="55" selection-start-column="2" selection-end-line="55" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/fixed-popover.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="130" column="14" selection-start-line="130" selection-start-column="14" selection-end-line="130" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/nylas-calendar/week-view-event-column.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="36" column="47" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/nylas-calendar/calendar-event.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="87" column="17" selection-start-line="87" selection-start-column="17" selection-end-line="87" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/nylas-calendar/calendar-event-container.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="930">
+          <caret line="65" column="91" selection-start-line="65" selection-start-column="54" selection-end-line="65" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/moment-round/src/moment-round.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/internal_packages/calendar-view/lib/event-popup.cjsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="742">
+          <caret line="332" column="26" selection-start-line="332" selection-start-column="26" selection-end-line="332" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/nylas-calendar/nylas-calendar.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="694">
+          <caret line="117" column="12" selection-start-line="117" selection-start-column="12" selection-end-line="117" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/nylas-calendar/calendar-data-source.es6">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="123" selection-start-line="21" selection-start-column="123" selection-end-line="21" selection-end-column="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/internal_packages/calendar-view/lib/event-calendar-data-source.es6">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="75" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/internal_packages/calendar-view/lib/calendar-details.cjsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="577">
+          <caret line="61" column="129" selection-start-line="61" selection-start-column="129" selection-end-line="61" selection-end-column="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/internal_packages/calendar-view/lib/calendar-search-bar.cjsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-270">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/internal_packages/calendar-view/lib/calendar-sidebar.cjsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="487">
+          <caret line="151" column="15" selection-start-line="151" selection-start-column="15" selection-end-line="151" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/nylas-calendar/proposal.es6">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/nylas-calendar/proposed-time-calendar-data-source.es6">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="4" column="51" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/nylas-calendar/proposed-time-calendar-store.es6">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/nylas-calendar/proposed-time-event.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="49" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/nylas-calendar/scheduler-actions.es6">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/nylas-calendar/scheduler-constants.es6">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/nylas-calendar/top-banner.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/internal_packages/composer-scheduler/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Build.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="23" selection-start-line="37" selection-start-column="23" selection-end-line="37" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/flux/stores/outbox-store.es6">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/flux/tasks/save-event-task.es6">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="116" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/flux/clouds/googledrive-api.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="27" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/flux/tasks/task.es6">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/flux/tasks/send-draft-task.es6">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/flux/tasks/base-draft-task.es6">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/nylas-calendar/month-view.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/nylas-calendar/week-view.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2910">
+          <caret line="209" column="17" selection-start-line="209" selection-start-column="17" selection-end-line="209" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/nylas-calendar/week-view-all-day-events.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,66 @@
+@import "ui-variables";
+@import "ui-mixins";
+
+.fileview-sidebar {
+  flex: 1;
+  height: 100%;
+  background-color: @source-list-bg;
+
+  .item.deleted {
+    opacity: 0.5;
+  }
+
+
+
+  .section {
+    .title {
+      padding: 10px;
+    }
+    .item-container {
+      display: flex;
+      padding: 5px;
+
+      .item {
+        color: rgba(35, 31, 32, 0.8);
+        flex: 1;
+        display: flex;
+        align-items: baseline;
+        font-size: 14px;
+        font-weight: 400;
+        padding-right: 14px;
+        padding-left: 10px;
+        line-height: 27.3px;
+        clear: both;
+        cursor: pointer;
+
+        :hover {
+          color: #0a80ff;
+        }
+
+        .icon {
+          flex-shrink: 0;
+          order: 1;
+
+          img {
+            width: 16px;
+            height: 16px;
+          }
+        }
+        .name {
+          order: 2;
+          padding-left: 8.5px;
+          overflow: hidden;
+          line-height: 19.95px;
+          text-overflow: ellipsis;
+        }
+      }
+
+      .item.selected {
+        background: #f6f7f8;
+        color: #3187e1;
+      }
+    }
+  }
+}
+
+

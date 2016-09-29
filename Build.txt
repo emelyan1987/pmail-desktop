@@ -1,0 +1,18 @@
+"build" folder includes everything for building every platform
+Please refer to "build" folder
+
+For MacOS
+
+$ script/bootstrap
+$ script/build --force
+
+
+For Windows
+
+1. Delete apm/node_modules
+2. Delete build/node_modules
+3. Deleete electron
+
+$ script\bootstrap.cmd
+$ script\build.cmd --force
+

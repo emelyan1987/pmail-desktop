@@ -1,0 +1,549 @@
+# N1 Changelog
+
+### 0.4.25 (4/12/16)
+
+- Features:
+  + Search: N1 now performs client-side search and streams results from backend providers,
+    dramatically improving search performance.
+
+  + Quick Schedule: Create events and propose meeting times right from the composer. We've
+    overhauled the design and implementation of the old Quick Scheduler, and more calendar
+    features are coming soon.
+
+  + Offline Status: N1 now displays a notice when it's disconnected from the API, so it's easy
+    to tell if your mailbox is up-to-date.
+
+- Performance:
+  + We've redesigned the join tables that back the thread list, improving unified inbox
+    loading speed ~53%.
+
+- Bugs:
+  + N1 now ships with emoji artwork so emoji aren't missing or incomplete on many platforms.
+  + The thread list updates more quickly following rapid mailbox actions.
+  + Thread drag-and-drop now works properly in all scenarios.
+  + Messages with invalid dates no longer cause N1 to crash.
+  + The thread list no longer displays an empty state briefly when loading.
+  + Sync progress in the sidebar no longer appears in some scenarios after sync has finished.
+  + Images with no width or height are now correctly scaled to the viewport size in emails.
+  + BCC'd recipients are no longer listed in headers when forwarding a message.
+  + `.ly` links and many others are now automatically highlighted in emails correctly.
+  + Read receipts no longer throw exceptions when the only message on a thread is a draft.
+  + The "Process All Mail" option in mail rules preferences now only processes the inbox,
+    and never skips threads.
+  + Themes with dashes in their folder names no longer break the theme picker.
+  + N1 always handles mailto: links itself rather than launching the default client.
+  + Inline images now load properly in all scenarios and display a progress indicator as they download.
+  + The preferences interface has a brand new look!
+
+- Development:
+  + SQLite table names no longer contain dashes.
+  + N1 now uses React `0.14.7`, will be moving to 15 very soon.
+  + 12% fewer LOC in CoffeeScript than `0.4.19`! We are slowly moving N1 to ES2016.
+
+### 0.4.19 (3/25/16)
+
+- Features:
+  + Inbox Zero: Beautiful new inbox zero artwork and a refined tray icon on Mac OS X!
+  + Reply from Alias: N1 now chooses the alias you were emailed at for a reply.
+  + Emoji: The emoji picker is now available in the bottom toolbar of the composer, and includes tabs and search!
+  + Download All: A new button allows you to quickly download all attachments in a message.
+  + Drop to Send: You can now drop files on the N1 app icon on Mac OS X to attach them to a new email!
+  + Default Signature: This version of N1 includes a default signature. You can remove it
+    by visiting `Preferences > Signatures`
+
+- Design:
+  + We've overhauled the multiple-selection UI to avoid toolbar issues.
+  + Thanks to nearly a dozen pull requests, many of the bundled themes have received visual polish
+  + Attachments have a refined design and better affordance for interaction.
+  + The "pop-out" button is always visible when composing in the main window.
+  + We've cleaned up the variables available to theme developers and created a starter kit for creating themes:
+    [https://github.com/nylas/N1-theme-starter](https://github.com/nylas/N1-theme-starter)
+
+- Fixes:
+  + N1 no longer incorrectly quotes forwarded message bodies.
+  + N1 API tokens are now stored in the system keychain for enhanced security.
+  + Filesystem errors (no disk space, wrong permissions, etc.) are presented when uploading or downloading attachments.
+  + Double-clicking image attachments now opens them.
+  + When you receive email to an alias, replies are sent from that alias by default.
+  + Search works more reliably, waits longer for results, and displays errors when results cannot be loaded.
+  + Read receipts are now visible in the narrow thread list.
+  + The undo/redo bar no longer appears when returning to your mailbox from Drafts.
+  + N1 no longer hangs while processing links in very large emails.
+  + The first input is auto-focused as you move through the Add Account flow.
+  + Failing API actions are retried more slowly, reducing CPU load when your machine is offline.
+  + The emoji keyboard now inserts emoji for a wider range of emoji names.
+  + You can now select a view mode from the View menu.
+  + Interface zoom is now an "advanced option", and has been removed from the preferences.
+
+- Developer:
+  + Composer Extensions using `finalizeSessionBeforeSending:` must now use `applyTransformsToDraft:`
+  + A new `InjectedComponentSet` allows you to add icons beside user's names in the composer.
+  + N1 is slowly transitioning to ES6 - 20% of package code was converted to ES6 this month!  
+
+### 0.4.16 (3/18/16)
+
+This is a small patch release resolving the following issues:
+
+- The red "Account Error" bar no longer appears incorrectly in some scenarios.
+- The "Sent Mail" label is no longer visible on threads (normally this label is hidden)
+- Unread counts are now correct and match your mailbox.
+- N1 now backs off when API requests fail temporarily (Gmail throttling, etc.)
+- Contact sidebar API requests retry on 202s from our backend provider.
+
+### 0.4.14 (3/10/16)
+
+- Features:
+
+  + Overhauled Sidebar: The sidebar now shows more accurate contact information,
+    recent conversations with the selected participant, and more.
+
+  + Themes: A brand new theme picker (in the Application Menu) allows you
+    to quickly try different themes, and we've bundled two great community themes
+    (Darkside and Taiga) into the app! An updated dark theme is coming soon.
+
+- Fixes:
+  + Warnings now appear in the main window if we are unable to connect to your email provider.
+  + The Send Later, Snooze and read receipts plugins now alert you if you are not using our hosted infrastructure.
+  + The Autoload Images and Snooze date input field is now locale-aware.
+
+  + Composer:
+    + N1 cleans up drafts properly after sending if an autosave occurred immediately
+      before your message was sent.
+    + The emoji picker now matches emoji against more common words, like `:thumbsup`!
+    + Link tracking correctly modifies only `http://` and `https://` links
+    + When sending two responses to the same email, the second email no longer appears
+      to be sending in some scenarios.
+
+  + Reading:
+    + Messages now show a loading indicator while they're being downloaded, and you can
+      retry if the download is interrupted.
+    + The "Sent" view now orders your messages by "last sent message".
+    + The "At 2:30PM, Mark wrote..." byline is now recognized as part of quoted text.
+    + Deleted messages are filtered from the conversation view, and you can show them by
+      clicking "Show Deleted   Messages." Threads in trash and spam are also excluded from
+      the Starred and Gmail label views.
+    + "Archive" no longer removes the label you are currently viewing.
+    + Delete and backspace no longer follow Gmail's "remove from view" behavior.
+      For Gmail's behavior, use the `y` shortcut.
+
+  + Attachments:
+    + Downloads that fail are now retried properly when you interact with them.
+    + Changing an attachment name when saving it no longer clears the file extension.
+
+  + Account Setup:
+    + The "Welcome to N1" screens now emphasize that it is cloud-based.
+    + You can use IP addresses as IMAP / SMTP and Exchange domains.
+    + You can now check "Require SSL" during IMAP / SMTP setup and N1 will not try plaintext authentication.
+    + N1 now displays better error messages for a wide variety of auth issues.
+    + Themes are no longer applied in the account setup window.
+
+- Temporary:
+  + N1 no longer syncs Drafts with Gmail, avoiding several critical issues our
+    platform team is working to resolve. (Drafts duplicating or appearing sent as you edit.)
+
+- Cleanup:
+  + All sample plugins have been converted from CoffeeScript to ES2016.
+  + The `<Popover>` component has been deprecated in favor of `<FixedPopover>` which is more flexible.
+  + Running specs from the application no longer resets your account configuration.
+  + N1 no longer adds `N1` and `apm` to `/usr/bin`
+
+### 0.4.10 (2/25/16)
+
+- Fixes:
+
+  + Prevent accounts from being wiped by rapid writes to config.cson
+  + Present nice error messages when sending results in 402 Message Rejected
+  + Fix a regression in adding / removing aliases
+  + Fix a regression in the Windows and Linux system tray icons
+  + Fix an issue with deltas throwing exceptions when messages are not present
+  + Stop checking for plugin auth once authentication succeeds. Makes "snooze"
+    animation more fluid and performant.
+  + Fix "Manage Templates" button in the pop-out composer.
+  + Right-align timestamps in the wide thread list.
+  + Fix print styling
+  + Add "Copy Debug Info to Clipboard", making it easier for users to collect
+    debugging information about messages.
+  + Update the email address used for reporting quoted text and rendering issues.
+
+### 0.4.9 (2/25/16)
+
+[Read about this release on Medium](https://medium.com/@Nylas/nylas-n1-now-has-snooze-swipe-actions-emoji-and-more-561cd1e91559)
+
+- Features:
+
+  + Snooze: Schedules threads to return to your inbox in a few hours, a few days,
+   or whenever you choose.
+
+  + Swipe Actions: In the thread list, swipe to archive, trash or snooze your mail.
+    Swiping works with the Mac trackpad and with Windows / Linux touchscreen devices.
+
+  + Send Later: Choose “Send later” in the composer and pick when a draft should be sent.
+    These scheduled drafts are sent via the sync engine, so you don’t need to be online.
+
+  + Read Receipts and Link Tracking: Get notified when recipients view your message
+    and click links with new read receipts and link tracking built in to the composer.
+
+  + Emoji Picker: Type a `:` in the composer followed by the name of an emoji to
+    insert it into your draft.
+
+- Design:
+
+  + This release includes slimmer toolbars and new icons in the composer.
+
+  + Font sizes throughout the app have been made slightly smaller to match platform
+   conventions. Like it the old way? Use the zoom feature in Workspace preferences!
+
+  + The N1 icon is now more of a "sea foam" green, which helps it stand out among
+    standard system icons, and features a square design on Windows.
+
+  + Tons and tons of additional polish.
+
+- Developer:
+
+  + A new `MetadataStore` and `model.pluginMetadata` concept allows plugins to associate
+    arbitrary data with threads and messages (like snooze times and link IDs).
+
+- Many, many other bug fixes were incorporated into this release. Take a look at
+  closed GitHub issues that made it into this release here:  
+
+  https://github.com/nylas/N1/issues?q=updated%3A2016-02-07..2016-02-25+is%3Aclosed
+
+
+### 0.4.5 (2/7/16)
+
+ + Resolves a critical issue where emails could not be sent from some aliases.
+ + Fixes the keyboard shortcuts for "Go to All Mail", "Go to Starred", etc.
+
+### 0.4.4 (2/5/16)
+
+We're really excited to announce this release - the largest improvement to N1
+since the initial release in October!
+
+- Features:
+ + Unified Inbox: The conversation view has been rebuilt so you can read and
+   triage mail from all your accounts at once. In addition to the Inbox, we've
+   unified Search, Drafts, Sent, Trash, and more.
+
+ + Send and Archive: You can now choose Send and Archive when replying to threads.
+   More "Send variants" are coming soon, including Send Later and Undo Send, and
+   you can choose a default in Preferences.
+
+ + Account Sidebar: We've rebuilt the account sidebar to address your feedback:
+   + Rename folders and labels by right clicking / double clicking
+   + Re-order accounts from Preferences > Accounts
+   + See unread counts for all accounts when viewing "All Accounts"
+   + Collapse label and folder views
+
+ + Send As: You can now choose which account or alias a new draft should be sent
+   from, and choose a default account in Preferences > Sending.
+
+ + Launch On System Start: N1 can now launch in the background via an option in Preferences.
+
+ + Search: You can now archive / trash items in the search results view.
+
+ + Contact autocompletion is now unified, uses dramatically less memory, and does
+   not depend on the selected account
+
+ + Outbox: N1 now keeps mail it isn't able to send in your Drafts folder, and
+   sends when you reconnect to the internet.
+
+- Performance:
+ + The conversation list has been rebuilt using a brand new "live query"
+   API that yields great performance and minimizes costly database queries.
+ + The conversation list data source no longer requires an accurate item count,
+   removing frequent and expensive count queries.
+
+ - Development:
+  + `AccountStore.current()` has been deprecated and replaced with the concept of
+    "Mailbox Perspectives" which are views of mail data.
+  + Developer > Toggle Screenshot Mode now allows you to hide text in the app to
+    take a screenshot.
+  + `window.eval` has been disabled in N1. (Issue #1159)
+
+- Fixes:
+  + On Mac OS X, N1 no longer crashes when you change language or spellcheck preferences.
+  + When viewing all accounts, the tray icon and dock icon also display
+    the unified unread count.
+  + You can now make N1 the default mail client on Windows.
+  + You can now re-order mail rules and use "starred" as a rule criteria.
+  + You can now authenticate IMAP / SMTP accounts where the username is not the
+    email address. (Fixed in the Nylas Sync Engine.)
+  + The maximum width of the account list has been increased.
+  + And many, many, many other fixes!
+
+- Coming Soon:
+  + Our PR has landed in Electron, unblocking Swipe to Archive.
+
+### 0.3.45 (1/21/16)
+
+- Fixes:
+ + The blue "Help" button in the app is smaller and goes to support.nylas.com.
+   Thanks to everyone who sent in feedback via Intercom. We'd still love to
+   hear from you on the community Slack channel!
+ + When linking new accounts, there is more validation on the form fields
+ + The newsletter checkbox now works properly when switching accounts.
+ + The "Welcome" template in the QuickSchedule package has been updated.
+ + N1 no longer generates errors installing on Ubuntu 14 and 15.
+ + AM/PM capitalization has been standardized.
+ + You can no longer accidentally select message timestamps.
+ + We've increased the timeout for Exchange authentication, because it can
+   actually take more than 30s to do Exchange AutoDiscovery.
+
+### 0.3.43 (1/12/16)
+
+- Features:
+ + You can now enable and disable bundled plugins from Preferences > Plugins,
+   and bundled plugin updates are delivered alongside N1 updates.
+ + You can now adjust the interface zoom from the workspace preferences.
+
+- Development:
+ + Packages can now list a relative `icon` path in their package.json.
+
+- Composer Improvements:
+  + You can now reply inline by outdenting (pressing delete) in quoted text.
+  + The Apple Mail keyboard shortcut for send is now correct.
+  + Keyboard shortcuts are shown in the shortcuts preferences.
+  + Clicking beneath the message body now positions your cursor correctly.
+  + Tabbing to the body positions the cursor at the end of the draft reliably.
+  + Tabbing to the subject highlights it correctly.
+  + Copy & paste now preserves line breaks reliably
+  + Inserting a template into a draft will no longer remove your signature.
+
+- Fixes:
+ + You can now unsubscribe from the N1 mailing list from the Account preferences.
+ + The message actions dropdown is now left aligned.
+ + Thread "Quick Actions" are now displayed in the correct order.
+ + Account names can no longer overflow the preferences sidebar.
+ + On Windows, N1 restarts after installing an update.
+ + N1 now re-opens in fullscreen mode if it exited in fullscreen mode.
+ + Files with illegal filesystem characters can be dragged and dropped normally.
+ + Files with illegal filesystem characters now download and open correctly.
+ + The Event RSVP interface only appears if you are a participant on the event.
+
+
+### 0.3.36 (1/5/16)
+
+- Features:
+  + Mail Rules: Create mail rules from the preferences that sort incoming mail.
+    You can also apply mail rules to your existing mail.
+  + Templates: The templates example plugin now includes a robust template editor,
+    better field jumping support, and many other improvements, and is now in ES6.
+  + Column Widths: The app now saves the state of columns between sessions.
+  + Mark As Read: You can now disable automatic "mark as read" behavior.
+
+- Development:
+  + Composer extensions have been overhauled to provide a better interface for developers.
+    For more details, ping @evan or @juan on Slack, or see the new Templates extension.
+  + Database transactions are now explicit and required for writing to the local cache.
+  + The quick actions area of the thread list is now an injectable region.
+  + You can now select the output of the test runner window.
+  + Travis now builds both 64-bit .rpm and .deb builds for Linux.
+
+- Fixes:
+  + Opening the feedback window no longer prevents the app from quitting.
+  + The QuickSchedule plugin can no longer send before saving the QuickSchedule event.
+  + Switching accounts while searching no longer throws off the account switcher.
+  + Emails sent from an alias now properly appear as "Me"
+  + Web fonts from remote servers are now permitted in message bodies.
+  + On Mac OS X and Linux, the system tray now includes an "Open Inbox" option
+  + On Mac OS X, the app closes correctly from fullscreen mode.
+  + On Linux, windows display the correct app icon.
+  + On Gnome Linux, the app now shows the correct icon.
+  + Google Inbox is now available as a keyboard shortcut preset.
+  + File uploads can be cancelled, even if you're offline.
+  + Dragging image uploads no longer causes duplicate attachments.
+  + Parsing of contacts with allowable special characters (eg: o'rielly@gmail.com) is more robust.
+  + The autoload images feature detects images more reliably.
+  + mailto:// parsing is more robust and supports poorly encoded body values.
+
+### 0.3.32 (12/15/15)
+
+- Features:
+  + Aliases: You can now add aliases from the Accounts preferences tab and use them when composing messages!
+  + Themes: From the General preferences tab you can now install custom themes via a dropdown picker.
+
+- Fixes:
+  + Selecting multiple threads and marking as read / unread works as expected.
+  + When you send a draft, it is correctly removed from the draft list.
+  + Preferences open to the General tab by default.
+  + Spellcheck:
+    - On Mac OS X and Windows 8+, spellcheck now offers suggestions in
+      the system language.
+    - On Linux and Windows <8, spellcheck no longer defaults to english
+      when your language is unavailable.
+
+### 0.3.29 (12/9/15)
+
+- Features:
+  + Print: You can now print threads via a button beside the subject line.
+  + Shortcuts: The preferences now list all available keyboard shortcuts.
+  + Templates: The templates example now adds a basic template editor to the app's preferences
+  + Expand / Collapse Thread: A button beside the subject line allows you to expand / collapse the thread.
+  + Delete vs Archive: A new option allows you to choose the behavior of the Delete & Backspace keys.
+  + Backgrounding: On Windows and Linux, the app will run from the System Tray, even if you close the main window.
+
+- Fixes:
+  + Unread counts now work correctly on providers that delete threads.
+  + Bold, underline, and italic keybindings have been fixed.
+  + Mark as unread / Mark as important keybindings have been added.
+  + Search queries with special characters and punctuation now work.
+  + On OS X, the badge icon now respects the option in preferences.
+  + On Windows, the app's menu now shows conditional menu items properly.
+  + On Linux, the preferences note that `zenity` is required for desktop notifications.
+  + Disabling "Autoload images" blocks images without file extensions correctly.
+  + The spellchecker now respects your system language preferences.
+  + "Toggle unread" displays the correct icon when multiple emails are selected.
+  + "Show Important flags" now works as expected for Gmail accounts.
+  + Changing accounts with an active search query runs the query for the other account.
+  + The up / down arrows in the thread pane now correctly move between threads.
+  + Focus no longer jumps between composer fields when you type after clicking them.
+  + The entire signature box is now clickable.
+
+- Style:
+  + The Translate and Quick Schedule plugins now have composer toolbar icons.
+  + The undo/redo notification is styled correctly in dark mode.
+
+- Development:
+  + `DraftStoreExtension` and `MessageStoreExtension` have been deprecated in favor of `ComposerExtension` and `MessageViewExtension`, respectively. See 9f309d399b7fe01230b53d3dec994b372bf2fd54 for more details.
+  + `nylas-exports` is available on the Developer Tools console as `$n`
+  + New integration tests for the composer can be run with `script/grunt run-integration-tests`
+
+
+### 0.3.27 (12/3/15)
+
+- Critical patch to the QuickSchedule plugin to prevent it from sending multiple RSVP responses
+
+### 0.3.26 (11/30/15)
+
+- Features:
+  + Link Targets: Hovering over links in an email displays their web address.
+  + Signatures: In Preferences > Signatures, you can now configure a signature for each account.
+    More signatures improvements are coming soon!
+  + Quick RSVP: N1 displays an event summary with RSVP options for messages with calendar invites.
+
+- Development:
+  + The specs run correctly on Node v0.10, resolving issues with the Linux CI server
+
+- Fixes:
+  + On OS X, N1 no longer crashes when clicking the dock icon if the main window is hidden.
+  + On Linux, N1 now handles retina displays correctly. No more tiny, tiny text!
+  + The main window is focused when you open Preferences
+  + On Fedora, N1 now appears with the correct icon
+  + Remaining references to `app.terminate` replaced with `app.quit`
+
+### 0.3.25 (11/25/15)
+
+- Features:
+  + Labels / Folders: You can now add labels from the sidebar and delete them by right-clicking.
+  + Unread Counts: You can now turn on unread counts for all folders and labels in preferences
+  + Examples: QuickSchedule allows you to easily send your availability and schedule events.
+  + Status Bar Icon: On Mac OS X, the status bar icon is retina and renders properly in dark mode.
+  + Preferences: The Preferences interface has been revamped in preparation for filters, signatures, and per-plugin preferences.
+
+- Development:
+  + We now use Electron `0.35.1`
+  + We now use Spectron to run a few integration tests on Mac
+  + The `atom` global has been renamed `PlanckEnv`
+  + The spec suite now runs and all tests pass on Linux (@mbilker)
+  + The build process now supports Node 4.2 and Node 5
+  + The build process exits if script/bootstrap fails
+
+- Fixes:
+  + The account switcher no longer sticks when trying to change accounts.
+  + The app will no longer attempt to preview images larger than 5MB.
+  + An outdated draft body no longer appears briefly when drafts are sent.
+  + You can now right-click and paste images as well as text into the composer
+  + `pre` tags in message bodies now render properly
+  + `NYLAS_HOME` is defined in the renderer process on Linux (@mbilker)
+  + The `MessageBodyProcessor` runs for every message, even if bodies are identical (@mbilker)
+  + The collapsed state of labels in the sidebar is preserved through restart.
+  + Choosing a subject line from the search suggestions now searches for that subject.
+
+- Style:
+  + Message rendering in dark mode is much better - no more white email backgrounds.
+  + We now refer to "list view" and "split view" as "single panel" and "two panel"
+  + The pop-out composer renders correctly in dark mode.
+
+- Performance:
+  + Queries for the thread list are now 4x faster thanks to revised join table indices.
+  + Unread counts no longer require periodic `SELECT COUNT(*)` queries.
+  + We've pulled Atom's new compile-cache, which provides speed improvements at launch.
+
+
+### 0.3.23 (11/17/15)
+
+- Features:
+  + System Tray: Quickly create new messages, view unread count, and quit N1
+  + Keybindings: The Gmail keybinding set now supports all Gmail shortcuts
+  + Quick Account Switching: Use Cmd-1, Cmd-2, etc. to switch accounts
+  + ES6 JavaScript: You can now write N1 plugins using ES6 (Stage 0) JavaScript
+    - The "Quick Replies" example plugin is now written in ES6
+
+- Fixes:
+  + Mailto links with newline characters are now supported
+  + File uploads no longer time out after 15 seconds
+  + Label names are no longer autocapitalized
+  + On Windows, the icon is no longer pixelated at many resolutions
+  + On Windows, long paths no longer cause installation to fail
+  + On Windows, N1 uses the "NylasPro" font correctly
+  + Mark as read now works when viewing messages in two panel mode
+  + Basic cut, copy, and paste menus are available for all inputs
+  + You can now type in the middle of a search query
+  + Names containing "via" are no longer truncated
+  + N1 quits without throwing exceptions
+
+- Internationalization:
+  + Composition events are now supported in the composer
+  + Labels with foreign characters no longer sync incorrectly in new accounts
+
+- Style:
+  + Dark mode looks better and has fewer color issues
+  + Unread counts in the sidebar are smaller
+  + Subject and body always align in the narrow thread list
+  + The search box no longer overflows if you type a long search query
+  + Hover states in menus and dropdowns are more consistent
+
+- Performance:
+  + In two panel mode, moving through messages quickly no longer causes jank.
+  + Model.fromJSON is 40% faster thanks to optimized loops and other fixes
+  + Models are lazily deserialized after being broadcast into other windows
+
+
+### 0.3.20 (10/28/15)
+
+- The “Update is Available” notification now links to release notes
+- Notifications have improved styling, and the entire notification bar is clickable
+- A new notification after updating links you to the release notes
+- The search input has the correct X, and a better focus outline
+- On Mac OS X, the green window frame dot is tied to fullscreen and changes to maximize when you hold option. (FINE.)
+- On Windows, long paths no longer cause installation to fail (still in testing)
+- Format checks prevent users from submitting crazy invite code strings to invite.nylas.com
+- The invite code check now requests /status/, not /status, which prevents issues for some users
+- The sidebar “hidden” setting is now persisted through relaunch
+
+### 0.3.19 (10/23/15)
+
+- Gmail users now have the option to “Move to Trash” in addition to "Archive", and we support the `#` Gmail shortcut.
+- The sidebar now supports hierarchical labels/folders and sorts better
+- Exchange auth includes an optional server field
+- Windows
+  + The onboarding screens no longer appear offscreen
+  + Installing packages now works reliably
+  + Styling is greatly improved and feels more native (toolbars, preferences)
+  + The app no longer collides with Atom
+- Mac OS X
+  + Exiting fullscreen mode by closing the main window works as expected
+- An error is displayed when uploading >25MB files
+- Email TLDs more than 4 characters no longer result in an error
+- The links in the Feedback window work
+- A failing “save draft” action will stop the subsequent “send”, (failures cancel downstream tasks)
+- The empty state animation eases with subpixel precision
+- Atomic database queries no longer leak memory
+- The chevron on Accounts is now flipped
+- The draft list in the app is more robust, deleting drafts from the list view works
+- Toolbar items no longer jump around when opening side panels
+- We now use system tooltips instead of our HTML-based ones, so they look appropriate on all platforms
+
+### 0.3.17
+
+- Initial public release

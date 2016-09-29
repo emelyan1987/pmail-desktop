@@ -1,0 +1,70 @@
+@import "ui-variables";
+@import "ui-mixins";
+
+.calender-details-container {
+  border-left: 1px solid #d9d9d9;
+
+  .details-toolbar-section {
+    cursor: default;
+    height: 50px;
+    background: @source-list-bg;
+    border-bottom: 1px solid #d9d9d9;
+
+    .toggle-button-wrap {
+      display: inline-block;
+      height: 50px;
+    }
+
+    .today-select-button {
+      display: inline-block;
+      width: 100px;
+      height: 50px;
+      font-weight: bold;
+      text-align: center;
+      //border: 1px solid gray;
+    }
+
+    .prev-button-wrap {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      border-left: 1px solid #d9d9d9;
+      border-right: 1px solid #d9d9d9;
+      text-align: center;
+      vertical-align: top;
+      padding-top: 10px;
+    }
+
+    .next-button-wrap {
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+      border-right: 1px solid #d9d9d9;
+      text-align: center;
+      vertical-align: top;
+      padding-top: 10px;
+    }
+
+    .right-toolbar-region {
+      float: right;
+
+      .duration-title-region {
+        display: inline-block;
+        width: 140px;
+        height: 51px;
+        font-weight: bold;
+        font-size: 14px;
+        text-align: center;
+        padding-top: 15px;
+      }
+
+      .switch-view-button {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        border-left: 1px solid #d9d9d9;
+        padding: 15px;
+      }
+    }
+  }
+}

@@ -1,0 +1,133 @@
+@import "ui-variables";
+@import "ui-mixins";
+
+.calendar-sidebar-container {
+  background-color: @source-list-bg;
+  width: 300px;
+  height: 100%;
+  cursor: default;
+
+  .sidebar-toolbar-section {
+    height: 50px;
+    padding: 15px;
+    border-bottom: 1px solid #d9d9d9;
+
+    .search-bar-wrap {
+      //border: 1px solid blue;
+      padding-left: 10px;
+      float: left;
+    }
+
+    .settings-button-wrap {
+      //border: 1px solid blue;
+      float: right;
+    }
+  }
+
+  .select-calendar-section {
+    padding: 15px;
+    //border: 1px solid blue;
+
+    .calendar-title-region {
+      //border: 1px solid blue;
+      margin-top: 5px;
+      height: 20px;
+
+      .calendar-title {
+        //border: 1px solid blue;
+        font-weight: bold;
+        float: left;
+      }
+
+      .calendar-collapse-button-wrap {
+        //border: 1px solid blue;
+        float: right;
+      }
+    }
+
+    .select-calendar-wrap {
+      //border: 1px solid blue;
+      margin-top: 10px;
+    }
+  }
+
+  .account-list-section {
+    //border: 1px solid blue;
+    padding: 15px;
+
+    .accounts-title-region {
+      //border: 1px solid blue;
+      margin-top: 5px;
+      height: 20px;
+
+      .accounts-title {
+        //border: 1px solid blue;
+        float: left;
+        font-weight: bold;
+      }
+
+      .accounts-collapse-button-wrap {
+        //border: 1px solid blue;
+        float: right;
+      }
+    }
+
+    .account-calendars-list-region {
+      margin-top: 10px;
+      //border: 1px solid blue;
+
+      .email-account-item {
+        font-weight: bold;
+        margin-top: 10px;
+        //border: 1px solid blue;
+        //background-color: green;
+
+        .account-wrapper {
+          display: flex;
+
+          .icon {
+            flex-shrink: 0;
+            order: 1;
+
+            img {
+              width: 16px;
+              height: 16px;
+            }
+          }
+          .name {
+            order: 2;
+            padding-left: 8.5px;
+            overflow: hidden;
+            line-height: 19.95px;
+            text-overflow: ellipsis;
+          }
+        }
+
+
+
+        .email-calendar-item {
+          font-weight: normal;
+          margin-top: 5px;
+          margin-left: 5px;
+          //border: 1px solid blue;
+
+          .calendar-item-color {
+            //border: 1px solid blue;
+          }
+
+          .calendar-item-name {
+            //border: 1px solid blue;
+            margin-left: 10px;
+          }
+
+          .calendar-item-checkbox {
+            margin-right: 5px;
+            float: right;
+          }
+
+        }
+
+      }
+    }
+  }
+}

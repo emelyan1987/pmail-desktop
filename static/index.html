@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html style="background: #fff">
+<head>
+  <title>Nylas N1</title>
+
+  <meta http-equiv="Content-Security-Policy" content="default-src * nylas:; script-src 'self'; style-src * 'unsafe-inline' nylas:; img-src * data: nylas: file:;">
+
+  <style>
+  .application-loading-cover {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index:100000;
+    opacity: 1;
+    /* background-image: linear-gradient(to bottom, rgba(236,236,236,0) 0%, rgba(236,236,236,1) 88%), linear-gradient(to right, rgba(213,224,0,0.47) 0%,rgba(88,182,63,0.47) 50%,rgba(12,162,163,0.47) 100%); */
+	background-image: white;
+    text-align: center;
+    /* color: rgba(0,0,0,0.5); */
+	color: rgb(64, 224, 208); /* turquoise color */
+    font-family: Helvetica, sans-serif;
+  }
+  .application-loading-cover img {
+    /* opacity: 0.6; */
+	opacity: 1;
+    margin-top: 90px;
+  }
+
+  .application-loading-text {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 300;
+    margin-top: 2.0em;
+  }
+
+  #application-loading-text-supplement {
+    text-align: center;
+    margin-top: 1em;
+    font-size: 18px;
+    line-height: 1.4;
+  }
+
+  </style>
+
+
+  <script src="index.js"></script>
+</head>
+<body>
+  <div class="application-loading-cover" id="application-loading-cover">
+    <div class="application-loading-cover-centered">
+      <!--<img style="width: 200px;" src="./images/onboarding/splash@2x.png"/>-->
+      <!--<div class="application-loading-text">Loading PlanckMail&hellip;</div>-->
+      <div id="application-loading-text-supplement"><!-- May be set by index.js to the value of loadSettings.loadingMessage --></div>
+    </div>
+  </div>
+</body>
+</html>

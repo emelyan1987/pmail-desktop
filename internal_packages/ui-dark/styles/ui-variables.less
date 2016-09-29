@@ -1,0 +1,58 @@
+@gray-base:    #ffffff;
+@gray-darker:  darken(@gray-base, 13.5%);
+@gray-dark:    darken(@gray-base, 20%);
+@gray:         darken(@gray-base, 33.5%);
+@gray-light:   darken(@gray-base, 46.7%);
+@gray-lighter: darken(@gray-base, 92.5%);
+@white:        #0a0b0c;
+
+@accent-primary:            #5AA8FA;
+@accent-primary-dark:       lighten(#3087E1, 10%);
+
+@background-primary:     #313131;
+@background-off-primary: #282828;
+@background-secondary:   #222;
+@background-tertiary:    #6d7987;
+
+@border-color-primary:   lighten(@background-primary, 10%);
+@border-color-secondary: lighten(@background-secondary, 10%);
+@border-color-tertiary:  lighten(@background-tertiary, 10%);
+@border-color-divider:   @border-color-secondary;
+
+@text-color:                      #C2C2C2;
+@text-color-subtle:               fadeout(@text-color, 20%);
+@text-color-very-subtle:          fadeout(@text-color, 40%);
+@text-color-inverse:              white;
+@text-color-inverse-subtle:       fadeout(@text-color-inverse, 20%);
+@text-color-inverse-very-subtle:  fadeout(@text-color-inverse, 50%);
+@text-color-heading:              #FFF;
+
+@btn-default-bg-color:      #404040;
+@dropdown-default-bg-color: #404040;
+
+@input-bg:              #242424;
+@input-border:          @border-color-divider;
+
+@list-bg:               #333;
+@list-border:           #383838;
+@list-selected-color:   @text-color-inverse;
+
+@toolbar-background-color: @background-secondary;
+
+.thread-icon:not(.thread-icon-unread):not(.thread-icon-star) {
+  -webkit-filter: invert(100%);
+}
+img.content-dark {
+  -webkit-filter: invert(100%);
+}
+img.content-light {
+  -webkit-filter: invert(100%);
+}
+
+.popover {
+  border: 1px solid @border-color-primary;
+}
+
+.mail-label {
+  -webkit-filter: contrast(110%) brightness(85%);
+}

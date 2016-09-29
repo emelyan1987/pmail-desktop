@@ -1,0 +1,13 @@
+{
+  "name": "contactview",
+  "version": "0.1.0",
+  "main": "./lib/main",
+  "description": "PlanckMail Contact View Window Component",
+  "license": "GPL-3.0",
+  "private": true,
+  "engines": {
+    "nylas": "*"
+  },
+  "dependencies": {
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "calendar-view",
+  "title":"Calendar",
+  "description": "Planck Calendar to schedule events",
+  "main": "./lib/main",
+  "version": "0.1.0",
+  "engines": {
+    "nylas": ">=0.4.0"
+  },
+  "appId": {
+    "staging": "c5dis00do2vki9ib6hngrjs18",
+    "production": "b8zturjyfg2b568czdcanxm63"
+  },
+  "serverUrl": {
+    "staging": "https://edgehill-staging.nylas.com",
+    "production": "https://edgehill.nylas.com"
+  },
+  "isOptional": true,
+  "windowTypes": {
+    "default": true,
+    "composer": true,
+    "calendar": true
+  },
+  "license": "GPL-3.0"
+}

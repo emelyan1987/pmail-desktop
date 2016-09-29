@@ -1,0 +1,85 @@
+.event-input-popover {
+  width: 320px;
+  height: 360px;
+  padding: 7px;
+
+  .title-wrap {
+    //border: 1px solid blue;
+    z-index: 10;
+
+    .title-input {
+      height: 30px;
+      width: 300px;
+    }
+  }
+
+  .duration-wrap {
+    //height: 40px;
+    margin: 5px;
+    z-index: 9;
+
+    .all-day-wrap {
+      float: left;
+      text-align: center;
+      margin-right: 5px;
+    }
+
+    .start-time-wrap {
+      //border: 1px solid gray;
+      float: left;
+      text-align: center;
+      margin-left: 5px;
+    }
+
+    .end-time-wrap {
+      //border: 1px solid gray;
+      float: left;
+      text-align: center;
+      margin-left: 5px;
+      margin-top: 5px;
+    }
+  }
+
+  .location-wrap {
+    z-index: 8;
+
+    .location-input {
+      margin-top: 5px;
+      float: left;
+      width: 265px;
+      height: 30px;
+    }
+
+    .timezone-wrap {
+      float: left;
+      margin-top: 10px;
+      margin-left: 5px;
+      //border: 1px solid blue;
+    }
+  }
+
+  .participants-wrap {
+    z-index: 7;
+
+    .react-selectize {
+      //border: 1px solid blue;
+      margin-top: 75px;
+    }
+  }
+
+  .calendars-wrap {
+    z-index: 6;
+    margin-top: 10px;
+
+    .SimpleSelect {
+      //border: 1px solid blue;
+    }
+  }
+
+  .confirm-button {
+    z-index: 0;
+    margin-top: 30px;
+    float: right;
+    margin-bottom: 10px;
+  }
+}

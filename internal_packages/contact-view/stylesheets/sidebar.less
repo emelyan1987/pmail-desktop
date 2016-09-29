@@ -1,0 +1,60 @@
+@import "ui-variables";
+@import "ui-mixins";
+
+.contactview-sidebar {
+  flex: 1;
+  height: 100%;
+  background-color: @source-list-bg;
+
+  .item.deleted {
+    opacity: 0.5;
+  }
+
+  .nylas-outline-view:first-child {
+    .heading span {
+      margin-right: 25px;
+    }
+  }
+}
+
+.email-accounts-section, .storage-providers-sections {
+  padding: 10px;
+  &:hover {
+    cursor: default;
+  }
+}
+
+.email-accounts-section-title, .storage-providers-section-tilte {
+  font-size: 16px;
+  background-color: rgba(225, 225, 225, 1);
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.email-account-item-container, .storage-provider-item-container {
+  padding: 6px;
+  &:hover {
+    border-bottom: medium solid turquoise;
+  }
+}
+
+.email-icon-container, .storage-icon-container {
+  display: inline-block;
+}
+
+.email-account-name, .storage-provider-name {
+  padding-left: 10px;
+  &:hover {
+
+  }
+}
+
+.contacts-switcher {
+  position: absolute;
+  top: 18px;
+  right: 20px;
+  z-index: 3;
+  img {
+    transform: rotateX(180deg);
+  }
+}
